@@ -78,7 +78,7 @@ offers:
           - criterion_id: cri_06
             kind: manual
             reason: external-verification
-            statement: Applicants must be the project's original creators, respect third-party intellectual property, and disclose other funding applications, admissions, grants, and subsequent changes.
+            statement: Applicants must be the project's original creators and, to their knowledge, its product or service must not already be available or under development elsewhere. They must respect third-party intellectual property and disclose other funding applications, admissions, grants, and subsequent changes.
           - criterion_id: cri_07
             kind: manual
             reason: vendor-discretion
