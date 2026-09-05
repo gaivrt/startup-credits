@@ -7,7 +7,7 @@ entity:
   domains:
   - value: hkust.edu.hk
     role: primary
-    valid_from: '2026-09-05T13:30:00.000Z'
+    valid_from: '2026-09-05T00:00:00.000Z'
   category: other
 profile:
   description: The Hong Kong University of Science and Technology supports entrepreneurship through its Entrepreneurship Center,
@@ -36,6 +36,7 @@ offers:
     and training through a six-month co-ideation programme.
   lifecycle:
     status: active
+    effective_from: '2026-09-05T00:00:00.000Z'
   economics:
     benefits:
     - benefit_id: ben_01
