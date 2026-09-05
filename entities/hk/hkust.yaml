@@ -1,0 +1,103 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m1rvtdhmwp0wz1bv597tzca7
+  slug: hkust
+  slug_aliases: []
+  name: Hong Kong University of Science and Technology
+  domains:
+  - value: hkust.edu.hk
+    role: primary
+    valid_from: '2026-09-05T13:30:00.000Z'
+  category: other
+profile:
+  description: The Hong Kong University of Science and Technology supports entrepreneurship through its Entrepreneurship Center,
+    training, mentoring, and startup programmes.
+  links:
+    site: https://ec.hkust.edu.hk/hkustxhkstp-co-ideation-program
+sources:
+- source_id: src_2b8e27364d1d254dc0f90091965ccc431560bac0f2f978054756387fa6559b59
+  url: https://ec.hkust.edu.hk/hkustxhkstp-co-ideation-program
+programs:
+- program_id: prg_01m1rvtdhm3zq2ax58ncxywx7v
+  program_slug: hkust-hkstp-co-ideation
+  program_slug_aliases: []
+  title: HKUST x HKSTP Co-ideation Program
+  summary: HKUST and HKSTP jointly support early-stage technology ventures with financial support, training, mentoring, and
+    a pathway toward incubation.
+  source_ids:
+  - src_2b8e27364d1d254dc0f90091965ccc431560bac0f2f978054756387fa6559b59
+offers:
+- offer_id: off_01m1rvtdhmgc486rsm5m8r90hq
+  program_id: prg_01m1rvtdhm3zq2ax58ncxywx7v
+  offer_slug: co-ideation-startup-grant
+  offer_slug_aliases: []
+  title: HKUST x HKSTP Co-ideation startup grant
+  summary: Eligible early-stage ventures with an HKUST member can apply for up to HKD 100,000 in grant support, mentoring
+    and training through a six-month co-ideation programme.
+  lifecycle:
+    status: active
+  economics:
+    benefits:
+    - benefit_id: ben_01
+      kind: other
+      description: 'Up to HKD 100,000 in financial grant support through a six-month programme with three milestones: Silver,
+        Gold and Platinum Badges.'
+    - benefit_id: ben_02
+      kind: other
+      description: HKUST advisor coaching, mentorship-network connections, entrepreneurship training, and preparation for
+        HKSTP incubation admission.
+    consideration:
+      kind: unknown
+      description: The official programme page does not specify a participation price or equity consideration.
+  eligibility:
+    rule:
+      kind: all
+      rules:
+      - criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: The team must include at least one HKUST current student, alumnus, faculty member or staff member. HKUST
+          members must hold at least 10% ownership in the proposed company.
+      - criterion_id: cri_02
+        kind: manual
+        reason: external-verification
+        statement: The proposal must be an innovative idea supported by research and development and business planning.
+      - kind: any
+        rules:
+        - criterion_id: cri_03
+          kind: manual
+          reason: external-verification
+          statement: Individual applicants must hold a Hong Kong Identity Card and be aged 18 or above.
+        - criterion_id: cri_04
+          kind: manual
+          reason: external-verification
+          statement: Company applicants must have a limited company incorporated in Hong Kong for less than two years by the
+            application start date.
+      - criterion_id: cri_05
+        kind: manual
+        reason: external-verification
+        statement: Individual and team applicants must incorporate a Hong Kong limited company before submitting the second
+          milestone assessment. The main applicant must be a shareholder of the proposed company.
+      - criterion_id: cri_06
+        kind: manual
+        reason: external-verification
+        statement: Applicants and team members must not currently participate in, or hold shares in ventures participating
+          in, pre-incubation or incubation programmes, including HKSTP Ideation or Incubation and Cyberport CCMF, CUPP or
+          Incubation.
+      - criterion_id: cri_07
+        kind: manual
+        reason: external-verification
+        statement: Admission is subject to application assessment and selection; the grant is not guaranteed to applicants.
+  roles:
+    terms_authority_entity_id: ent_01m1rvtdhmwp0wz1bv597tzca7
+    access_operator_entity_id: ent_01m1rvtdhmwp0wz1bv597tzca7
+  access:
+    availability: public
+    method: form
+    url: https://ust.az1.qualtrics.com/jfe/form/SV_3ZS6zJVl3Hpw5O6
+    instructions: Apply via the online application with the programme application form, a 5–10-page pitch deck, a 3–5-minute
+      pitch video, and BR, CI, AOA and NNC1 if applicable. Cohort UST27-10 closes on 20 September 2026; panel assessment is
+      October–November, results are announced on 30 November 2026, and the programme starts on 1 February 2027.
+  terms_url: https://ec.hkust.edu.hk/hkustxhkstp-co-ideation-program
+  source_ids:
+  - src_2b8e27364d1d254dc0f90091965ccc431560bac0f2f978054756387fa6559b59
